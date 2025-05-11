@@ -1,0 +1,154 @@
+!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Proyecto de unidad</title>
+</head>
+<body>
+<!--inicio del encabezado-->
+<center>
+<h1>PROYECTO DE UNIDAD</h1>
+</center>
+<hr noshade="5px" size="5px">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas HTML - Proyecto</title>
+
+    <center>
+      <h1>Colegio Salesiano Don Bosco <br> De Guatemala -SDB- <br> Bachillerato en Ciencias y Letras con Orientación en Diseño Gráfico <br>Catedra Informativa<br> </h1>
+   </center>
+
+<hr noshade="5px" size="5px">
+<center>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .tag-container {
+            background-color: #f9f9f9;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .tag-name {
+            font-weight: bold;
+            color: #e74c3c;
+        }
+        .tag-example {
+            background-color: #f0f0f0;
+            padding: 5px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Etiquetas HTML</h1>
+    
+    <div class="tag-container">
+        <h2>Estructura básica</h2>
+        
+        <p><span class="tag-name">html</span>: Elemento raíz de cualquier documento HTML.<br>
+        <span class="tag-example">&lt;html&gt;...&lt;/html&gt;</span></p>
+        
+        <p><span class="tag-name">head</span>: Contiene metadatos del documento, como título y enlaces a CSS.<br>
+        <span class="tag-example">&lt;head&gt;...&lt;/head&gt;</span></p>
+        
+        <p><span class="tag-name">title</span>: Define el título de la página, que aparece en la pestaña del navegador.<br>
+        <span class="tag-example">&lt;title&gt;Título de la página&lt;/title&gt;</span></p>
+        
+        <p><span class="tag-name">body</span>: Contiene el contenido visible de la página web.<br>
+        <span class="tag-example">&lt;body&gt;...&lt;/body&gt;</span></p>
+    </div>
+    
+    <div class="tag-container">
+        <h2>Elementos de texto</h2>
+        
+        <p><span class="tag-name">h1 - h6</span>: Encabezados, del más importante (h1) al menos importante (h6).<br>
+        <span class="tag-example">&lt;h1&gt;Encabezado&lt;/h1&gt; ... &lt;h6&gt;Encabezado menor&lt;/h6&gt;</span></p>
+        
+        <p><span class="tag-name">p</span>: Define un párrafo de texto.<br>
+        <span class="tag-example">&lt;p&gt;Este es un párrafo.&lt;/p&gt;</span></p>
+        
+        <p><span class="tag-name">strong</span>: Texto con énfasis fuerte (normalmente en negrita).<br>
+        <span class="tag-example">&lt;strong&gt;Texto importante&lt;/strong&gt;</span></p>
+        
+        <p><span class="tag-name">em</span>: Texto enfatizado (normalmente en cursiva).<br>
+        <span class="tag-example">&lt;em&gt;Texto enfatizado&lt;/em&gt;</span></p>
+        
+        <p><span class="tag-name">br</span>: Inserta un salto de línea (no tiene etiqueta de cierre).<br>
+        <span class="tag-example">Texto&lt;br&gt;Nueva línea</span></p>
+    </div>
+    
+    <div class="tag-container">
+        <h2>Enlaces e imágenes</h2>
+        
+        <p><span class="tag-name">a</span>: Define un enlace a otra página o recurso.<br>
+        <span class="tag-example">&lt;a href="url"&gt;Texto del enlace&lt;/a&gt;</span></p>
+        
+        <p><span class="tag-name">img</span>: Muestra una imagen. Usa el atributo src (no tiene etiqueta de cierre).<br>
+        <span class="tag-example">&lt;img src="imagen.jpg" alt="Descripción"&gt;</span></p>
+    </div>
+    
+    <div class="tag-container">
+        <h2>Listas</h2>
+        
+        <p><span class="tag-name">ul</span>: Lista desordenada.<br>
+        <span class="tag-example">&lt;ul&gt;...&lt;/ul&gt;</span></p>
+        
+        <p><span class="tag-name">ol</span>: Lista ordenada.<br>
+        <span class="tag-example">&lt;ol&gt;...&lt;/ol&gt;</span></p>
+        
+        <p><span class="tag-name">li</span>: Elemento de lista. Solo se usa dentro de ul o ol.<br>
+        <span class="tag-example">&lt;li&gt;Elemento de lista&lt;/li&gt;</span></p>
+    </div>
+    
+    <div class="tag-container">
+        <h2>Contenedores</h2>
+        
+        <p><span class="tag-name">div</span>: Contenedor genérico para agrupar contenido.<br>
+        <span class="tag-example">&lt;div&gt;Contenido agrupado&lt;/div&gt;</span></p>
+        
+        <p><span class="tag-name">span</span>: Contenedor en línea, útil para aplicar estilos.<br>
+        <span class="tag-example">&lt;span style="color:red;"&gt;Texto&lt;/span&gt;</span></p>
+    </div>
+    
+    <div class="tag-container">
+        <h2>Formularios</h2>
+        
+        <p><span class="tag-name">form</span>: Agrupa elementos de formulario para enviar datos.<br>
+        <span class="tag-example">&lt;form action="procesar.php" method="post"&gt;...&lt;/form&gt;</span></p>
+        
+        <p><span class="tag-name">input</span>: Campo de entrada de datos. Puede ser texto, checkbox, etc. (no tiene etiqueta de cierre).<br>
+        <span class="tag-example">&lt;input type="text" name="nombre"&gt;</span></p>
+        
+        <p><span class="tag-name">label</span>: Etiqueta descriptiva para un campo del formulario.<br>
+        <span class="tag-example">&lt;label for="nombre"&gt;Nombre:&lt;/label&gt;</span></p>
+        
+        <p><span class="tag-name">button</span>: Botón que puede ejecutar acciones o enviar formularios.<br>
+        <span class="tag-example">&lt;button type="submit"&gt;Enviar&lt;/button&gt;</span></p>
+    </div>
+    
+    <div class="tag-container">
+        <h2>Recursos externos</h2>
+        
+        <p><span class="tag-name">link</span>: Enlace a recursos externos (no tiene etiqueta de cierre).<br>
+        <span class="tag-example">&lt;link rel="stylesheet" href="estilos.css"&gt;</span></p>
+    </div>
+
+<!--inicio de pie de página-->
+<hr noshade="5px" size="5px">
+<center>
+<h4>Tics I - 2025 <br>Elaborado por MAAM</h4>
+</center>
+<!--Final del pie de página-->
+</body>
+</html>
